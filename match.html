@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5e6240b1e9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>EPL | Match Details</title>
+</head>
+<body onload="reverseVerify(); getMatchData()">
+    <nav id="navbar">
+        <div class="container">
+            <img src="IMG/Premier-League-logo.png" alt="Premier-League-logo" class="logo">
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a>Clubs List</a>
+                    <div class="dropdown">
+                        <ul id="clubName"></ul>
+                    </div>
+                </li>
+                <li><a class="current">Match Details</a>
+                    <div class="dropdown">
+                        <ul id="matchday"></ul>
+                    </div>
+                </li>
+                <li><a class="logout logOut">Log Out <i class="fa-solid fa-right-from-bracket"></i></a></li>
+                <li><a class="logout-logo logOut"><i class="fa-solid fa-right-from-bracket"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Match result -->
+    <section id="clubs">
+        <div class="container">
+            <div id="match-result"></div>
+        </div>
+    </section>
+    
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="nav">
+                    <a href="index.html">Home</a>
+                    <a href="club.html">Clubs List</a>
+                    <a href="match.html">Match Details</a>
+                </div>
+                <div class="social">
+                    <a href="https://www.facebook.com/premierleague/"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                    <a href="https://twitter.com/premierleague?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-twitter fa-2x"></i></a>
+                    <a href="https://www.instagram.com/premierleague/"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                    <a href="https://www.youtube.com/c/premierleague/videos"><i class="fa-brands fa-youtube fa-2x"></i></a>
+                </div>
+                <img src="IMG/logo-light.png" alt="logo">
+            </div>
+            <p>&copy; PREMIER LEAGUE 2022. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

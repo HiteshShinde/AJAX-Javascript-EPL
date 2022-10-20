@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>EPL | Login</title>
+</head>
+<body onload="verify()">
+    <div class="container">
+        <div class="loginbox">
+            <img src="IMG/Premiere League Icon.jpg" class="pic">
+            <h1>Login Here</h1>
+            <div id="error"></div>
+            <form method="get">
+				<input type="text" id="userName" name="uname" placeholder="Enter Username" required>
+				<input type="password" id="password" name="pass" placeholder="Enter Password" required>
+				<input href type="submit" id="login" name="Login" value="Login">
+				<a href="#" >Forgot Password?</a><br>
+				<a href="#" >Don't have an account?</a>
+			</form>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

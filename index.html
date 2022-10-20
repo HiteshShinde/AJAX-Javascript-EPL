@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5e6240b1e9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>EPL | Home</title>
+</head>
+<body onload="reverseVerify()">
+    <nav id="navbar">
+        <div class="container">
+            <img src="IMG/Premier-League-logo.png" alt="Premier-League-logo" class="logo">
+            <ul class="nav">
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a>Clubs List</a>
+                    <div class="dropdown">
+                        <ul id="clubName"></ul>
+                    </div>
+                </li>
+                <li><a>Match Details</a>
+                    <div class="dropdown">
+                        <ul id="matchday"></ul>
+                    </div>
+                </li>
+                <li><a class="logout logOut">Log Out <i class="fa-solid fa-right-from-bracket"></i></a></li>
+                <li><a class="logout-logo logOut"><i class="fa-solid fa-right-from-bracket"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section id="showcase">
+        <div class="container">
+            <div class="showcase-content">
+                <h1>Premier League</h1>
+                <p>The Premier League is the highest level of the men's English football league system. Contested by 20 clubs, it operates on a system of promotion and relegation with the English Football League</p>
+                <a href="#about" class="btn">KNOW MORE</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="about-info">
+                <div class="about-content">
+                    <h1>Premier League History</h1>
+                    <p>In 1990, the managing director of London Weekend Television (LWT), Greg Dyke, met with the representatives of the "big five" football clubs in England (Manchester United, Liverpool, Tottenham Hotspur, Everton and Arsenal) over a dinner. The meeting was to pave the way for a breakaway from The Football League. Dyke believed that it would be more lucrative for LWT if only the larger clubs in the country were featured on national television and wanted to establish whether the clubs would be interested in a larger share of television rights money.</p>
+                </div>
+                <img src="IMG/about.jpeg" alt="Football">
+            </div>
+            <div class="info">The five clubs agreed with the suggestion and decided to press ahead with it; however, the league would have no credibility without the backing of The Football Association, and so David Dein of Arsenal held talks to see whether the FA were receptive to the idea. The FA did not enjoy an amicable relationship with the Football League at the time and considered it as a way to weaken the Football League's position. The FA released a report in June 1991, Blueprint for the Future of Football, that supported the plan for the Premier League with the FA as the ultimate authority that would oversee the breakaway league.</div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="nav">
+                    <a href="index.html">Home</a>
+                    <a href="club.html">Clubs List</a>
+                    <a href="match.html">Match Details</a>
+                </div>
+                <div class="social">
+                    <a href="https://www.facebook.com/premierleague/"><i class="fa-brands fa-facebook fa-2x"></i></a>
+                    <a href="https://twitter.com/premierleague?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-twitter fa-2x"></i></a>
+                    <a href="https://www.instagram.com/premierleague/"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                    <a href="https://www.youtube.com/c/premierleague/videos"><i class="fa-brands fa-youtube fa-2x"></i></a>
+                </div>
+                <img src="IMG/logo-light.png" alt="logo">
+            </div>
+            <p>&copy; PREMIER LEAGUE 2022. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
