@@ -49,13 +49,10 @@ function reverseVerify() {
     }
 }
 
-let logout = document.querySelector('.logOut');
-if (logout){
-    logout.addEventListener('click', function () {
-        localStorage.clear();
+function logOut () {
+    localStorage.clear();
     
-        window.location.href = 'login.html';
-    }); 
+    window.location.href = 'login.html';
 }
 
 
